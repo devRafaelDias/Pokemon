@@ -1,0 +1,8 @@
+CREATE DATABASE pokemon;
+USE pokemon;
+
+CREATE TABLE cadastro (
+	id INTEGER PRIMARY KEY AUTO_INCREMENT
+	,loginUser VARCHAR(50)
+	,senha VARCHAR(8)
+);
